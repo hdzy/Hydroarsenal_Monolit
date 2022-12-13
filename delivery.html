@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Гидроарсенал</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="container__top">
+  <header class="header">
+    <nav class="header__nav">
+      <div class="header__nav-city">
+        <a href="#">г. Москва</a>
+      </div>
+      <div class="header__nav-workhours">
+        <p>Режим работы: с 09:00 до 18:00</p>
+      </div>
+      <div class="header__nav-line">
+        <img src="../hydrostyle/assets/img/index/header/line.svg" alt="line">
+      </div>
+      <div class="header__nav-aboutCompany">
+        <a href="aboutus.html">О компании</a>
+      </div>
+      <div class="header__nav-delivery">
+        <a href="delivery.html">Доставка</a>
+      </div>
+      <div class="header__nav-reviews">
+        <a href="reviews.html">Отзывы</a>
+      </div>
+      <div class="header__nav-brands">
+        <a href="brands.html">Бренды</a>
+      </div>
+      <div class="header__nav-autowashkey">
+        <a href="autowash.html">Автомойка под ключ</a>
+      </div>
+      <div class="header__nav-contacts">
+        <a href="contacts.html">Контакты</a>
+      </div>
+      <div class="header__nav-line header__nav-lineSecond">
+        <img src="../hydrostyle/assets/img/index/header/line.svg" alt="line">
+      </div>
+      <div class="header__nav-number">
+        <p>+7 (495) 154-21-83</p>
+      </div>
+      <div class="header__row">
+        <div class="header__nav-call">
+          <img src="../hydrostyle/assets/img/index/header/call.svg" alt="call">
+        </div>
+        <div class="header__nav-backcall" style="cursor: pointer;">
+          <a onclick="createPopUp()">Обратный звонок</a>
+        </div>
+      </div>
+      <div class="header__nav-email">
+        <a href="mailto:info@gidroarsenal.com">info@gidroarsenal.com</a>
+      </div>
+    </nav>
+    <div class="header__top">
+      <div class="header__top-logo">
+        <img src="../hydrostyle/assets/img/index/header/logo.svg" alt="logo">
+      </div>
+      <div class="header__top-catalog">
+        <a href="#"><img src="../hydrostyle/assets/img/index/header/forCatalog.svg" alt="catalog"></a>
+        <a href="#">Каталог</a>
+      </div>
+      <div class="header__top-search">
+        <form action="">
+          <input class="header__top-search-input" placeholder="Я ищу.." type="text" name="search">
+          <input class="header__top-search-submit" type="image" src="../hydrostyle/assets/img/index/header/search.svg">
+        </form>
+      </div>
+      <div class="header__top-login">
+        <a href="personal_account.html" class="header__top-login-text">Войти</a>
+        <a href="personal_account.html"><img class="header__top-login-icon" src="../hydrostyle/assets/img/index/header/forLogin.svg" alt="login"></a>
+      </div>
+      <div class="header__top-cart">
+        <a href="cart.html" class="header__top-cart-text">Корзина</a>
+        <a href="cart.html"><img class="header__top-cart-icon" src="../hydrostyle/assets/img/index/header/cart.svg" alt="cart"></a>
+      </div>
+    </div>
+  </header>
+</div>
+<div class="auto">
+  <div class="current__address__container">
+    <a href="index.html">Главная</a>
+    <a href="delivery.html">Доставка</a>
+  </div>
+  <h1 class="DELIVERY_category__title">ДОСТАВКА</h1>
+  <div class="DELIVERY_title__hoizontalLine"></div>
+
+
+  <div class="DELIVERY_mainContainer">
+    <div class="DELIVERY_row">
+      <div class="DELIVERY_text__column">
+        <h2 class="DELIVERY_text__title">ДОСТАВКА ТОЛЬКО ПРИ 100% ПРЕДОПЛАТЕ</h2>
+        <p class="DELIVERY_text__info">Интернет-магазин выполняет доставку любого товара своей собственной службой доставки по Москве и Московской области. Также, мы отправляем заказы в любые районы России транспортными компаниями, курьерскими службами</p>
+      </div>
+      <div class="DELIVERY_card DELIVERY_first__card">
+        <img class="DELIVERY_firstcard__image" src="../hydrostyle/assets/img/delivery/home.svg" alt="home">
+        <h2 class="DELIVERY_card__title DELIVERY_firstcard__title">САМОВЫВОЗ</h2>
+        <h3 class="DELIVERY_first__title">Со склада:</h3>
+        <p class="DELIVERY_first__info">г. Москва, поселение Сосенское, квартал №58</p>
+        <h4 class="DELIVERY_second__title">Режим работы склада:</h4>
+        <p class="DELIVERY_second__info">Пн-чт 9:30-17:00, пт 9:30-16:00</p>
+        <a class="DELIVERY_gotomap" href="#">Посмотреть на карте</a>
+      </div>
+      <div class="DELIVERY_card DELIVERY_second__card">
+        <img class="DELIVERY_secondcard__image" src="../hydrostyle/assets/img/delivery/car.svg" alt="car">
+        <h2 class="DELIVERY_card__title DELIVERY_firstcard__title">ДОСТАВКА ПО МОСКВЕ</h2>
+        <h3 class="DELIVERY_first__title">В пределах МКАД:</h3>
+        <p class="DELIVERY_first__info">600₽ (при сумме заказа до 7000₽)</p>
+        <h4 class="DELIVERY_second__title">Бесплатная доставка</h4>
+        <p class="DELIVERY_second__info DELIVERY_delivery__info">При заказе от 7000₽</p>
+        <div class="DELIVERY_line"></div>
+        <p class="DELIVERY_delivery__info">Доставка осуществляется пн-пт 9:00-21:00</p>
+      </div>
+    </div>
+    <div class="DELIVERY_row__first">
+      <div class="DELIVERY_card DELIVERY_third__card">
+        <img class="DELIVERY_map__pin__image" src="../hydrostyle/assets/img/delivery/map-pin.svg" alt="map-pin">
+        <h2 class="DELIVERY_deliverymo__title">ДОСТАВКА ПО МО</h2>
+        <p class="DELIVERY_deliverymo__text">Рассчитывается в индивидуальном порядке, уточняйте у менеджера</p>
+      </div>
+      <div class="DELIVERY_card DELIVERY_fourth__card">
+        <img class="DELIVERY_mapimg" src="../hydrostyle/assets/img/delivery/map.svg" alt="map">
+        <h2 class="DELIVERY_deliverymo__title DELIVERY_deliveryrussia__title">ДОСТАВКА ПО РОССИИ</h2>
+        <p class="DELIVERY_deliverymo__text DELIVERY_deliveryrussiatext__first">Осуществляется через транспортные компании, доставка до транспортной компании по Москве в пределах МКАД бесплатная</p>
+        <p class="DELIVERY_deliverymo__text DELIVERY_deliveryrussiatext__second">Работаем с любыми транспортными компаниями по вашему выбору, а так же:</p>
+        <div class="DELIVERY_imgrow">
+          <img src="../hydrostyle/assets/img/delivery/elovielinii.svg" alt="delovielinii">
+          <img class="DELIVERY_pekimg" src="../hydrostyle/assets/img/delivery/pek.svg" alt="pek">
+        </div>
+      </div>
+      <div class="DELIVERY_card DELIVERY_fifth__card">
+        <img class="DELIVERY_boximg" src="../hydrostyle/assets/img/delivery/box.svg" alt="box">
+        <h2 class="DELIVERY_deliverymo__title">ОСОБЫЕ УСЛОВИЯ</h2>
+        <p class="DELIVERY_deliverymo__text DELIVERY_delivery__terms">Доставка крупногабаритных товаров по Москве осуществляется в течение 3-4 рабочих дней, при условии предоплаты (обговаривается с менеджером)</p>
+      </div>
+    </div>
+  </div>
+  <div class="DELIVERY_mainContainer1024">
+    <div class="DELIVERY_text__column">
+      <h2 class="DELIVERY_text__title">ДОСТАВКА ТОЛЬКО ПРИ 100% ПРЕДОПЛАТЕ</h2>
+      <p class="DELIVERY_text__info">Интернет-магазин выполняет доставку любого товара своей собственной службой доставки по Москве и Московской области. Также, мы отправляем заказы в любые районы России транспортными компаниями, курьерскими службами</p>
+    </div>
+    <div class="DELIVERY_row__first">
+      <div class="DELIVERY_card DELIVERY_first__card">
+        <img class="DELIVERY_firstcard__image" src="../hydrostyle/assets/img/delivery/home.svg" alt="home">
+        <h2 class="DELIVERY_card__title DELIVERY_firstcard__title">САМОВЫВОЗ</h2>
+        <h3 class="DELIVERY_first__title">Со склада:</h3>
+        <p class="DELIVERY_first__info">г. Москва, поселение Сосенское, квартал №58</p>
+        <h4 class="DELIVERY_second__title">Режим работы склада:</h4>
+        <p class="DELIVERY_second__info">Пн-чт 9:30-17:00, пт 9:30-16:00</p>
+        <a class="DELIVERY_gotomap" href="#">Посмотреть на карте</a>
+      </div>
+      <div class="DELIVERY_card DELIVERY_second__card">
+        <img class="DELIVERY_secondcard__image" src="../hydrostyle/assets/img/delivery/car.svg" alt="car">
+        <h2 class="DELIVERY_card__title DELIVERY_firstcard__title">ДОСТАВКА ПО МОСКВЕ</h2>
+        <h3 class="DELIVERY_first__title">В пределах МКАД:</h3>
+        <p class="DELIVERY_first__info">600₽ (при сумме заказа до 7000₽)</p>
+        <h4 class="DELIVERY_second__title">Бесплатная доставка</h4>
+        <p class="DELIVERY_second__info DELIVERY_delivery__info">При заказе от 7000₽</p>
+        <div class="DELIVERY_line"></div>
+        <p class="DELIVERY_delivery__info">Доставка осуществляется пн-пт 9:00-21:00</p>
+      </div>
+      <div class="DELIVERY_card DELIVERY_third__card">
+        <img class="DELIVERY_map__pin__image" src="../hydrostyle/assets/img/delivery/map-pin.svg" alt="map-pin">
+        <h2 class="DELIVERY_deliverymo__title">ДОСТАВКА ПО МО</h2>
+        <p class="DELIVERY_deliverymo__text">Рассчитывается в индивидуальном порядке, уточняйте у менеджера</p>
+      </div>
+      <div class="DELIVERY_row__second">
+        <div class="DELIVERY_card DELIVERY_fourth__card">
+          <img class="DELIVERY_mapimg" src="../hydrostyle/assets/img/delivery/map.svg" alt="map">
+          <h2 class="DELIVERY_deliverymo__title DELIVERY_deliveryrussia__title">ДОСТАВКА ПО РОССИИ</h2>
+          <div class="DELIVERY_russia__row">
+            <div class="DELIVERY_russia__column">
+              <p class="DELIVERY_deliverymo__text DELIVERY_deliveryrussiatext__first">Осуществляется через транспортные компании, доставка до транспортной компании по Москве в пределах МКАД бесплатная</p>
+              <p class="DELIVERY_deliverymo__text DELIVERY_deliveryrussiatext__second">Работаем с любыми транспортными компаниями по вашему выбору, а так же:</p>
+            </div>
+            <div class="DELIVERY_imgrow">
+              <img class="DELIVERY_dlimg" src="../hydrostyle/assets/img/delivery/elovielinii.svg" alt="delovielinii">
+              <img class="DELIVERY_pekimg" src="../hydrostyle/assets/img/delivery/pek.svg" alt="pek">
+            </div>
+          </div>
+        </div>
+        <div class="DELIVERY_card DELIVERY_fifth__card">
+          <img class="DELIVERY_boximg" src="../hydrostyle/assets/img/delivery/box.svg" alt="box">
+          <h2 class="DELIVERY_deliverymo__title DELIVERY_deliveryrussia__title">ОСОБЫЕ УСЛОВИЯ</h2>
+          <p class="DELIVERY_deliverymo__text DELIVERY_delivery__terms">Доставка крупногабаритных товаров по Москве осуществляется в течение 3-4 рабочих дней, при условии предоплаты (обговаривается с менеджером)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="DELIVERY_mainContainer640">
+    <div class="DELIVERY_row">
+      <div class="DELIVERY_text__column">
+        <h2 class="DELIVERY_text__title">ДОСТАВКА ТОЛЬКО ПРИ 100% ПРЕДОПЛАТЕ</h2>
+        <p class="DELIVERY_text__info">Интернет-магазин выполняет доставку любого товара своей собственной службой доставки по Москве и Московской области. Также, мы отправляем заказы в любые районы России транспортными компаниями, курьерскими службами</p>
+      </div>
+      <div class="DELIVERY_subrow640__first">
+        <div class="DELIVERY_card DELIVERY_first__card">
+          <img class="DELIVERY_firstcard__image" src="../hydrostyle/assets/img/delivery/home.svg" alt="home">
+          <h2 class="DELIVERY_card__title DELIVERY_firstcard__title">САМОВЫВОЗ</h2>
+          <h3 class="DELIVERY_first__title">Со склада:</h3>
+          <p class="DELIVERY_first__info">г. Москва, поселение Сосенское, квартал №58</p>
+          <h4 class="DELIVERY_second__title">Режим работы склада:</h4>
+          <p class="DELIVERY_second__info">Пн-чт 9:30-17:00, пт 9:30-16:00</p>
+          <a class="DELIVERY_gotomap" href="#">Посмотреть на карте</a>
+        </div>
+        <div class="DELIVERY_card DELIVERY_second__card">
+          <img class="DELIVERY_secondcard__image" src="../hydrostyle/assets/img/delivery/car.svg" alt="car">
+          <h2 class="DELIVERY_card__title DELIVERY_firstcard__title">ДОСТАВКА ПО МОСКВЕ</h2>
+          <h3 class="DELIVERY_first__title">В пределах МКАД:</h3>
+          <p class="DELIVERY_first__info">600₽ (при сумме заказа до 7000₽)</p>
+          <h4 class="DELIVERY_second__title">Бесплатная доставка</h4>
+          <p class="DELIVERY_second__info DELIVERY_delivery__info">При заказе от 7000₽</p>
+          <div class="DELIVERY_line"></div>
+          <p class="DELIVERY_delivery__info">Доставка осуществляется пн-пт 9:00-21:00</p>
+        </div>
+      </div>
+    </div>
+    <div class="DELIVERY_row__first">
+      <div class="DELIVERY_subrow640__second">
+        <div class="DELIVERY_card DELIVERY_third__card">
+          <img class="DELIVERY_map__pin__image" src="../hydrostyle/assets/img/delivery/map-pin.svg" alt="map-pin">
+          <h2 class="DELIVERY_deliverymo__title">ДОСТАВКА ПО МО</h2>
+          <p class="DELIVERY_deliverymo__text">Рассчитывается в индивидуальном порядке, уточняйте у менеджера</p>
+        </div>
+        <div class="DELIVERY_card DELIVERY_fifth__card">
+          <img class="DELIVERY_boximg" src="../hydrostyle/assets/img/delivery/box.svg" alt="box">
+          <h2 class="DELIVERY_deliverymo__title DELIVERY_deliveryou__text">ОСОБЫЕ УСЛОВИЯ</h2>
+          <p class="DELIVERY_deliverymo__text DELIVERY_delivery__terms">Доставка крупногабаритных товаров по Москве осуществляется в течение 3-4 рабочих дней, при условии предоплаты (обговаривается с менеджером)</p>
+        </div>
+      </div>
+      <div class="DELIVERY_card DELIVERY_fourth__card">
+        <div class="DELIVERY_cf__column">
+          <img class="DELIVERY_mapimg" src="../hydrostyle/assets/img/delivery/map.svg" alt="map">
+          <h2 class="DELIVERY_deliverymo__title DELIVERY_deliveryrussia__title">ДОСТАВКА ПО РОССИИ</h2>
+          <p class="DELIVERY_deliverymo__text DELIVERY_deliveryrussiatext__first">Осуществляется через транспортные компании, доставка до транспортной компании по Москве в пределах МКАД бесплатная</p>
+          <p class="DELIVERY_deliverymo__text DELIVERY_deliveryrussiatext__second">Работаем с любыми транспортными компаниями по вашему выбору, а так же:</p>
+        </div>
+        <div class="DELIVERY_imgrow">
+          <img class="DELIVERY_dlimg" src="../hydrostyle/assets/img/delivery/elovielinii.svg" alt="delovielinii">
+          <img class="DELIVERY_pekimg" src="../hydrostyle/assets/img/delivery/pek.svg" alt="pek">
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<div class="footer-bg footer-bg-main">
+  <footer class="footer">
+    <div class="footer__central">
+      <div class="footer__row">
+        <img class="footer-logo" src="../hydrostyle/assets/img/index/header/logo.svg" alt="footer logo">
+        <div class="footer-adaptive-column">
+          <a class="footer-email" href="mailto:info@gidroarsenal.com">INFO@GIDROARSENAL.COM</a>
+          <h2 class="footer-tel">+7 (495) 154-21-83</h2>
+        </div>
+        <a class="footer-backcall" onclick="createPopUp()" href="#">Обратный звонок</a>
+      </div>
+      <div class="footer__row footer__row__second">
+        <div class="footer-adaptive-row">
+          <div class="footer__column footer__column__first">
+            <h2 class="footer__column-mainText">Каталог товаров</h2>
+            <a href="#" class="footer__column-text">Аппараты высокого давления</a>
+            <a href="#" class="footer__column-text">Аксессуары для АВД</a>
+            <a href="#" class="footer__column-text">Аксессуары для автомоек</a>
+            <a href="#" class="footer__column-text">Автохимия</a>
+            <a href="#" class="footer__column-text">Для пищевой промышленности</a>
+            <a href="#" class="footer__column-text">Для сельхоз промышленности</a>
+            <a href="#" class="footer__column-text">Электродвигатели</a>
+          </div>
+          <div class="footer__column footer__column__second">
+            <a href="#" class="footer__column-text">Насосы</a>
+            <a href="#" class="footer__column-text">Пенные станции</a>
+            <a href="#" class="footer__column-text">Пылесосы</a>
+            <a href="#" class="footer__column-text">Компрессоры</a>
+            <a href="#" class="footer__column-text">Гидравлика</a>
+            <a href="#" class="footer__column-text">Водоподготовка</a>
+            <a href="#" class="footer__column-text">Поломоечные машины</a>
+          </div>
+          <div class="footer__column footer__column__third">
+            <h2 class="footer__column-mainText">Компания</h2>
+            <a href="aboutus.html" class="footer__column-text">О нас</a>
+            <a href="reviews.html" class="footer__column-text">Отзывы</a>
+            <a href="brands.html" class="footer__column-text">Бренды</a>
+            <a href="autowash.html" class="footer__column-text">Автомойка под ключ</a>
+            <a href="delivery.html" class="footer__column-text">Доставка</a>
+            <a href="contacts.html" class="footer__column-text">Контакты</a>
+          </div>
+        </div>
+        <div class="footer__column footer__column__fourth">
+          <h2 class="footer__column-subscribeText footer__column-subscribeTextMain">Подпишитесь на наши новости</h2>
+          <div class="footer-hidden-elemets">
+            <h2 class="footer__column-subscribeText footer__column-subscribeTextHidden">Подпишитесь на наши новости</h2>
+            <a href="#"><img src="../hydrostyle/assets/img/index/footer/youtube_svg.svg" alt="youtube"></a>
+            <a href="#"><img src="../hydrostyle/assets/img/index/footer/instagram_svg.svg" alt="instagram"></a>
+          </div>
+          <div class="footer__form">
+            <form>
+              <input class="footer__email-input" placeholder="Введите email" type="text" name="search">
+              <input class="footer__email-submit" type="image" src="../hydrostyle/assets/img/index/footer/whitearrow.svg">
+            </form>
+          </div>
+          <div class="footer__row footer__subrow">
+            <a href="#"><img src="../hydrostyle/assets/img/index/footer/youtube_svg.svg" alt="youtube"></a>
+            <a href="#"><img src="../hydrostyle/assets/img/index/footer/instagram_svg.svg" alt="instagram"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+<div class="footer-bg footer320bg">
+  <footer class="footer footer320">
+    <div class="footer__central footer320__central">
+      <img class="footer-logo" src="../hydrostyle/assets/img/index/header/logo.svg" alt="footer logo">
+      <div class="footer__row footer__row__first">
+        <div class="footer__column footer__column__first">
+          <h2 class="footer__column-mainText">Каталог товаров</h2>
+          <a href="#" class="footer__column-text">Аппараты высокого давления</a>
+          <a href="#" class="footer__column-text">Аксессуары для АВД</a>
+          <a href="#" class="footer__column-text">Аксессуары для автомоек</a>
+          <a href="#" class="footer__column-text">Автохимия</a>
+          <a href="#" class="footer__column-text">Для пищевой промышленности</a>
+          <a href="#" class="footer__column-text">Для сельхоз промышленности</a>
+          <a href="#" class="footer__column-text">Электродвигатели</a>
+        </div>
+        <div class="footer__column footer__column__second">
+          <a href="#" class="footer__column-text">Насосы</a>
+          <a href="#" class="footer__column-text">Пенные станции</a>
+          <a href="#" class="footer__column-text">Пылесосы</a>
+          <a href="#" class="footer__column-text">Компрессоры</a>
+          <a href="#" class="footer__column-text">Гидравлика</a>
+          <a href="#" class="footer__column-text">Водоподготовка</a>
+          <a href="#" class="footer__column-text">Поломоечные машины</a>
+        </div>
+      </div>
+      <h2 class="footer__column-mainTextcp footer__column-mainText">Компания</h2>
+      <div class="footer__row">
+        <a href="#" class="footer__column-text footer__column-textcp-first">О нас</a>
+        <a href="#" class="footer__column-text footer__column-textcp-second">Бренды</a>
+        <a href="#" class="footer__column-text footer__column-textcpt-third">Автомойка под ключ</a>
+      </div>
+      <div class="footer__row">
+        <a href="#" class="footer__column-text footer__column-textcp-fourth">Отзывы</a>
+        <a href="#" class="footer__column-text footer__column-textcp-fifth">Доставка</a>
+        <a href="#" class="footer__column-text footer__column-textcp-six">Контакты</a>
+      </div>
+      <div class="footer__row">
+        <div class="footer-adaptive-column">
+          <a class="footer-email" href="mailto:info@gidroarsenal.com">INFO@GIDROARSENAL.COM</a>
+          <h2 class="footer-tel" >+7 (495) 154-21-83</h2>
+        </div>
+        <button class="footer-backcall" onclick="createPopUp()">Обратный звонок</button>
+      </div>
+      <div class="footer__row">
+        <h2 class="footer__column-subscribeText footer__column-subscribeTextHidden">Подпишитесь на наши новости</h2>
+        <a href="#"><img class="footer-youtube" src="../hydrostyle/assets/img/index/footer/youtube_svg.svg" alt="youtube"></a>
+        <a href="#"><img class="footer-instagram" src="../hydrostyle/assets/img/index/footer/instagram_svg.svg" alt="instagram"></a>
+      </div>
+      <div class="footer__form">
+        <form>
+          <input class="footer__email-input" placeholder="Введите email" type="text" name="search">
+          <input class="footer__email-submit" type="image" src="../hydrostyle/assets/img/index/footer/whitearrow.svg">
+        </form>
+      </div>
+    </div>
+  </footer>
+</div>
+<div class="underfooter-container">
+  <div class="underfooter__row">
+    <div class="underfooter__adaptive__row">
+      <p class="underfooter__text underfooter__text__first">г. Москва, Сосенское, д. Летово, ул. Малая Летовская 8с3</p>
+      <p class="underfooter__text">Режим работы: с 09:00 до 18:00</p>
+      <p class="underfooter__text underfooter__text__fifth__adaptive">© 2021 Гидроарсенал</p>
+    </div>
+    <div class="underfooter__adaptive__row">
+      <p class="underfooter__text">ОГРН 5157746143143</p>
+      <p class="underfooter__text">ИНН 7720325277</p>
+      <a href="#" class="underfooter__link">Политика конфиденциальности</a>
+      <a href="#" class="underfooter__link">Договор оферты</a>
+      <p class="underfooter__text underfooter__text__fifth">© 2021 Гидроарсенал</p>
+    </div>
+  </div>
+</div>
+
+<script src="../hydrostyle/assets/js/popup.js"></script>
+</body>
+</html>
